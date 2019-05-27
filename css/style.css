@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #eee;
+    font-size: 20px;
+    font-family: manrope-light;
+}
+.form-signin {
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    display: block; 
+    width: 100%; 
+    max-width: 380px;
+    padding: 2.25em;
+    text-align: center;
+}
+.email-input , .password-input , .submit{
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+.email-input , .password-input{
+    border: 1px solid gray;
+}
+.email-input{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: -1px;
+}
+.password-input{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.submit{
+    background-color: rgb(0, 132, 255);
+    color: #fff;
+    border:0;
+    margin: 25px 0;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+.password-input , h2{
+    margin-bottom: 25px;
+}
+.checkbox{
+    background-color: transparent;
+}
+@font-face {
+    font-family: manrope-light;
+    src: url(../font/manrope.light.otf);
+}
+p{
+    font-size: 1rem;
+    color: gray;
+}
+
+
+/****dashboard style*****/
+.container{
+    width: 88%;
+    margin: 0 auto;
+    font-family: manrope-light;
+}
+.background{
+    background-color:#d3edfb;
+    padding: 20px;
+    border-radius: 20px;
+    /* display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 10px; */
+    -webkit-box-shadow: 10px 3px 53px 0px rgba(0,0,0,0.24);
+    -moz-box-shadow: 10px 3px 53px 0px rgba(0,0,0,0.24);
+    box-shadow: 10px 3px 53px 0px rgba(0,0,0,0.24);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* .btn-action{
+    display: flex;
+    justify-content: flex-end;
+} */
+.design{
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 38px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 10px;
+}
+.btn-action{
+    border:0;
+    background-color: #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.body-name h3 , .body-content h3{
+    display: inline-block;
+}
+.center{
+    text-align: center;
+}
+.style-section{
+    display: grid;
+    grid-template-rows: 25% 25% 6%;
+    grid-gap: 20px;
+    width: 30%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.display{
+    display: none;
+}
